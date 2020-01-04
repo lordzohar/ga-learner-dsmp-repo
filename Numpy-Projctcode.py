@@ -4,6 +4,7 @@ import numpy as np
 
 # Path of the file has been stored in variable called 'path'
 #you can save path='' and save it to your location
+path='file.csv'
 data=np.genfromtxt(path, delimiter=",", skip_header=1)
 
 #Printing tye of data
@@ -20,8 +21,7 @@ print("\nData: \n\n", census)
 
 
 # --------------
-#Code starts here
-#finding the age of census
+#Finding the age of census
 age=census[:,0]
 # Maximum age of census
 max_age=np.max(age)
@@ -39,7 +39,6 @@ print("Standard Deviation",age_std)
 
 
 # --------------
-#Code starts here
 #Finding diffrent kinds of races within the data
 race_0=census [census[:,2]==0]
 race_1=census [census[:,2]==1]
@@ -73,8 +72,7 @@ print("Minority",minority_race)
 
 
 # --------------
-#Code starts here
-#Senior citizen within the data age >60
+#Finding senior citizen within the data age >60
 senior_citizens=census[census[:,0]>60]
 print('Senior',senior_citizens[:,0])
 working_hours_sum=np.sum(senior_citizens[:,6])
@@ -86,8 +84,7 @@ print(avg_working_hours)
 
 
 # --------------
-#Code starts here
-#Categorizing data high orlow based on his education >10 or less than equal to 10
+#Categorizing data high or low based on his education >10 or less than equal to 10
 high=census[census[:,1]>10]
 
 low=census[census[:,1]<=10]
