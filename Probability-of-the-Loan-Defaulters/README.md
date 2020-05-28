@@ -5,10 +5,10 @@
 Problem Statement
 What is the probability that the borrower paid back their loan in full?
 
-About the Dataset
-here is the link of data set 
+#### About the Dataset
+- here is the link of data set https://www.kaggle.com/indra90/predicting-loan-repayment
 
-Feature	Description
+## Feature	Description
 
 1. customer.id	ID of the customer
 2. credit.policy	If the customer meets the credit underwriting criteria of LendingClub.com or not
@@ -26,13 +26,13 @@ Feature	Description
 14. delinq.2yrs	The number of times the borrower had been 30+ days past due on a payment in the past 2 years
 15. paid.back.loan	Whether the user has paid back loan
 
-Why solve this project?
-After completing this project, you will have a better understanding of probability. In this project, you will apply the following concepts.
+### Why solve this project?
+After completing this project, we will have a better understanding of probability. In this project, you will apply the following concepts.
 
-Independency check
-Bayes theorem
-Visualizing discrete variable
-Visualizing continuous variable
+- Independency check
+- Bayes theorem
+- Visualizing discrete variable
+- Visualizing continuous variable
 
 
 ### Learnings from the project
@@ -51,11 +51,9 @@ Visualizing continuous variable
 
 ### Challenges faced
 
- Calculating conditional probablities for multiple couloumns and given conditional probablity
+ Calculating conditional probablities for multiple couloumns and given conditional probablity formula
 
-P(A∣B)= P(B∣A).P(A)/P(B)
-​	
-
+> P(A∣B)= P(B∣A).P(A)/P(B)
 
 ### Additional pointers
 
