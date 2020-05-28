@@ -1,5 +1,11 @@
 ### Project Overview
 
+# Predicting Loan Repayment
+
+In the lending industry, investors provide loans to borrowers in exchange for the promise of repayment with interest. If the borrower repays the loan, then the lender profits from the interest. However, if the borrower is unable to repay the loan, then the lender loses money. Therefore, lenders face the problem of predicting the risk of a borrower being unable to repay a loan.
+
+
+To predict this dependent variable, we will use the following independent variables available to the investor when deciding whether to fund a loan:
  we will be exploring the publicly available data from LendingClub.com. Lending Club connects people who need money (borrowers) with people who have money (investors). As an investor one would want to invest in people who showed a profile of having a high probability of paying the amount back.
 
 Problem Statement
